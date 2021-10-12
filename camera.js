@@ -1,4 +1,4 @@
-var video = document.getElementyld("video");
+var video = document.getElementByld("video");
 function on_cam_success(stream)
 {
 	video.srcObject = stream;
